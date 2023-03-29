@@ -11,23 +11,23 @@ form {
     max-width: 700px;
     margin: 0 auto;
 }
-
+  
 h1, .description {
     text-align: center;
 }
-
+  
 h1 {
     padding: 10px;
     font-family: calibri;
 }
-
+  
 .description {
     padding-bottom: 10px;
     font-style: italic;
     font-family: calibri;
     font-size: 20px;
 }
-
+  
 input,
 textarea,
 select {
@@ -35,16 +35,16 @@ select {
     width: 100%;
     min-height: 2em;
 }
-
+  
 input, textarea {
     border: 1px solid #ffffff;
     color: black;
 }
-
+  
 textarea {
     min-height: 10em;
 }
-
+  
 button {
     display: block;
     width: 60%;
@@ -55,17 +55,17 @@ button {
     border-color: black;
     min-width: 300px;
 }
-
+  
 .inline {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
-
+  
 span {
     font-size: 13.5px;
 }
-
+  
 .dropquestion {
     margin-bottom: -2px;
 }
