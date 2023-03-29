@@ -1,0 +1,57 @@
+body {
+    background-color: #483d8b;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  
+  h1, .description {
+    text-align: center;
+  }
+  
+  h1 {
+    padding: 10px;
+  }
+  
+  .description {
+    padding-bottom: 10px;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    border: 1px solid #ffffff;
+    color: black;
+  }
+  
+  textarea {
+    min-height: 10em;
+  }
+  
+  button {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #fffff0;
+    border-color: black;
+    min-width: 300px;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  span {
+    font-size: 13.5px;
+  }
+  
