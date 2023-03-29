@@ -3,38 +3,38 @@ body {
     color: white;
     font-family: sans-serif;
     padding: 10px;
-  }
+}
   
-  h1, .description {
+h1, .description {
     text-align: center;
-  }
-  
-  h1 {
+}
+
+h1 {
     padding: 10px;
-  }
-  
-  .description {
+}
+
+.description {
     padding-bottom: 10px;
-  }
-  
-  input,
-  textarea,
-  select {
+}
+
+input,
+textarea,
+select {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
-  }
-  
-  input, textarea {
+}
+
+input, textarea {
     border: 1px solid #ffffff;
     color: black;
-  }
-  
-  textarea {
+}
+
+textarea {
     min-height: 10em;
-  }
-  
-  button {
+}
+
+button {
     display: block;
     width: 60%;
     margin: 1em auto;
@@ -43,15 +43,14 @@ body {
     background-color: #fffff0;
     border-color: black;
     min-width: 300px;
-  }
-  
-  .inline {
+}
+
+.inline {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
-  }
-  
-  span {
+}
+
+span {
     font-size: 13.5px;
-  }
-  
+}
