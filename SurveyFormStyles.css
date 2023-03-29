@@ -65,3 +65,7 @@ button {
 span {
     font-size: 13.5px;
 }
+
+.dropquestion {
+    margin-bottom: -2px;
+}
