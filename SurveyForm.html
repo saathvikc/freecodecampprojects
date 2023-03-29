@@ -14,21 +14,21 @@
         <label id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required /></label>
         <label id="email-label">Email <input type="email" id="email" placeholder="Enter your email" required /></label>
         <label id="number-label">Age (optional) <input type="number" id="number" min= "13" max="120" placeholder="Age"/><label>
-        <p class="dropquestion">Which option best describes your current role? </p>
-        <select id="dropdown" required>
-        <option disabled="" selected="" value="">Select current role </option>
-        <option value="student">Full Time Student </option>
-        <option value="job"> Full Time Job </option>
-        <option value="no-job"> Unemployed </option>
-        <option value="noprefer"> Prefer not to say </option>
-        <option value = "other"> Other </option>
-        </select>
+          <p class="dropquestion">Which option best describes your current role? </p>
+          <select id="dropdown" required>
+            <option disabled="" selected="" value="">Select current role </option>
+            <option value="student">Full Time Student </option>
+            <option value="job"> Full Time Job </option>
+            <option value="nojob"> Unemployed </option>
+            <option value="noprefer"> Prefer not to say </option>
+            <option value ="other"> Other </option>
+          </select>
       </div>
       <div>
         <p class="multichoice">Would recommend freeCodeCamp to a friend? </p>
-        <label><input name="recommend" type="radio" value="definitely" checked=""> Definitely </label>
-        <label><input name="recommend" type="radio" value="maybe"> Maybe </label>
-        <label><input name="recommend" type="radio" value="notsure"> Not sure </label>
+        <label><input name="recommend" type="radio" value="definitely" class="inline" checked=""> Definitely </label>
+        <label><input name="recommend" type="radio" value="maybe" class="inline"> Maybe </label>
+        <label><input name="recommend" type="radio" value="notsure" class="inline"> Not sure </label>
         <p class="dropquestion">What's your favorite feature of freeCodeCamp? </p>
         <select id="dropdown" required>
           <option disabled="" value="" selected=""> Select an option </option>
@@ -40,17 +40,17 @@
       </div>
       <div>
         <p>What would you like to see improved? <span>(Check all that apply)</span></p>
-        <label><input type="checkbox" name="improvement" value="front-end"> Front-end projects</label>
-        <label><input type="checkbox" name="improvement" value="back-end"> Back-end projects</label>
-        <label><input type="checkbox" name="improvement" value="data"> Data visualization</label>
-        <label><input type="checkbox" name="improvement" value="challenges"> Challenges</label>
-        <label><input type="checkbox" name="improvement" value="community"> Community </label>
-        <label><input type="checkbox" name="improvement" value="forum-wiki"> Forums/Wiki </label>
+        <label><input type="checkbox" name="improvement" value="front-end" class="inline"> Front-end projects</label>
+        <label><input type="checkbox" name="improvement" value="back-end" class="inline"> Back-end projects</label>
+        <label><input type="checkbox" name="improvement" value="data" class="inline"> Data visualization</label>
+        <label><input type="checkbox" name="improvement" value="challenges" class="inline"> Challenges</label>
+        <label><input type="checkbox" name="improvement" value="community" class="inline"> Community </label>
+        <label><input type="checkbox" name="improvement" value="forum-wiki" class="inline"> Forums/Wiki </label>
         <p>Any comments or suggestions? </p>
         <textarea id="comments" name="comment" placeholder="Enter your comments here:"></textarea>
       </div>
       <div>
-        <button type="submit" id="submit"> Submit </button> 
+        <button type="submit" id="submit"> Submit </button>
       </div>
     </form>
   </body>
